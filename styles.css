@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
 body,
 h1,
 h2,
@@ -44,7 +44,7 @@ header {
 a.logo-link {
     text-decoration: none;
     color: inherit;
-  }
+}
 
 .logo img {
     width: 30px;
@@ -58,7 +58,7 @@ a.logo-link {
 }
 
 #mainTitle strong {
-    font-weight:900;
+    font-weight: 900;
 }
 
 .nav ul {
@@ -66,7 +66,7 @@ a.logo-link {
     list-style: none;
     margin-right: 22px;
     font-size: 15px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .nav ul li {
@@ -101,8 +101,8 @@ a.logo-link {
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
-    left: 50%; 
-    transform: translateX(-50%); 
+    left: 50%;
+    transform: translateX(-50%);
     background: #85D4FF;
     padding-top: 25px;
 }
@@ -112,7 +112,7 @@ a.logo-link {
     margin: 0;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-align: center; 
+    text-align: center;
 }
 
 .dropdown li {
@@ -122,7 +122,7 @@ a.logo-link {
 .donation-bar {
     margin-top: 60px;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .donation-text {
@@ -149,7 +149,7 @@ a.logo-link {
     max-width: 100%;
     position: relative;
     margin: auto;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .slide {
@@ -167,6 +167,7 @@ a.logo-link {
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
 @keyframes fade {
     from {
         opacity: 0.4;
@@ -200,7 +201,7 @@ a.logo-link {
 }
 
 sup {
-    font-size:  12px;
+    font-size: 12px;
     color: #02383B;
 }
 
@@ -246,7 +247,7 @@ footer {
 
 .navMobile {
     position: fixed;
-    margin-top: 63px;
+    margin-top: 49px;
     left: -300px;
     width: 150px;
     height: 100%;
@@ -260,7 +261,7 @@ footer {
 
 .navMobile a {
     text-decoration: none;
-    color: #02383B; 
+    color: #02383B;
 }
 
 .navMobile a:visited {
@@ -313,6 +314,7 @@ footer {
 
     .donation-bar {
         display: none;
+
     }
 
     .mobileTopBar {
@@ -321,12 +323,18 @@ footer {
         color: #02383B;
         display: flex;
         align-items: center;
-        justify-content: space-between; 
+        justify-content: space-between;
         padding: 10px 20px;
+        margin-top: -16px;
         position: fixed;
         z-index: 2;
     }
-    
+
+    .donateBtnMobile {
+        margin-top: 0;
+
+    }
+
     .donateBtnMobile img {
         width: 145px;
         height: 50px;
@@ -343,19 +351,19 @@ footer {
         padding: 0;
         margin: 0;
     }
-    
-    
+
+
     .about-container {
         max-width: 100%;
 
         text-align: left;
     }
-    
+
     .about-container h2 {
         font-size: 32px;
         color: #02383B;
     }
-    
+
     .about-container p {
         font-size: 18px;
         line-height: 1.6;
@@ -371,7 +379,7 @@ footer {
         height: 100px;
         margin: 0;
     }
-    
+
     .callToAction {
         display: flex;
         align-items: center;
@@ -379,7 +387,7 @@ footer {
         padding-bottom: 100px;
         margin-top: 100px;
     }
-    
+
     .callToAction img {
         height: 180px;
         width: 180px;
