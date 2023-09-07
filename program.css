@@ -1,0 +1,48 @@
+.ourProgram-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equally spaced columns */
+    gap: 20px; /* Adjust the gap between columns */
+    background-color: #f2f2f2; /* Add background color for visualization */
+
+}
+
+.ourProgram-grid-item {
+    padding: 20px; /* Add padding for spacing around content */
+}
+
+.ourProgram-grid-item.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ourProgram-grid-item.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondaryTitle {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.laundryExample-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns that take up equal space */
+    gap: 20px; /* Adjust the gap between items */
+    padding-left: 100px; /* Add padding to the container */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2; /* Add background color for visualization */
+}
+
+.laundryExample-grid-item {
+    display: flex;   
+}
+
+.laundryExample-grid-item img {
+    max-width: 75px;
+    height: 75px;
+
+}
