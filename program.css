@@ -1,7 +1,7 @@
 .ourProgram-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equally spaced columns */
-    gap: 20px; /* Adjust the gap between columns */
+    gap: 10px; /* Adjust the gap between columns */
     background-color: #f2f2f2; /* Add background color for visualization */
 
 }
@@ -15,14 +15,13 @@
 .ourProgram-grid-item.image img {
     max-width: 100%;
     height: auto;
-
 }
 
 
 .ourProgram-grid-item.text {
     display: flex;
     flex-direction: column;
-    line-height: normal;
+    text-align: center;
 
 }
 

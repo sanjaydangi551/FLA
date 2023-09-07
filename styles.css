@@ -341,17 +341,18 @@ footer {
 
     .about-section {
         padding: 0;
+        margin: 0;
     }
+    
     
     .about-container {
         max-width: 100%;
-        margin: 0;
+
         text-align: left;
     }
     
     .about-container h2 {
-        font-size: 28px;
-        margin-bottom: 20px;
+        font-size: 32px;
         color: #02383B;
     }
     
@@ -367,12 +368,11 @@ footer {
         justify-content: center;
         align-items: center;
         max-width: 100%;
-        height: auto;
+        height: 100px;
         margin: 0;
     }
     
     .callToAction {
-
         display: flex;
         align-items: center;
         height: 0px;
@@ -381,10 +381,9 @@ footer {
     }
     
     .callToAction img {
-        height: 120px;
-        width: 120px;
+        height: 180px;
+        width: 180px;
     }
 
-    
 
 }
