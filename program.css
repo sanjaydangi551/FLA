@@ -7,18 +7,23 @@
 }
 
 .ourProgram-grid-item {
-    padding: 20px; /* Add padding for spacing around content */
+    padding: 50px; /* Add padding for spacing around content */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .ourProgram-grid-item.image img {
     max-width: 100%;
     height: auto;
+
 }
+
 
 .ourProgram-grid-item.text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    line-height: normal;
+
 }
 
 .secondaryTitle {
