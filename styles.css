@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 body,
 h1,
 h2,
@@ -10,18 +10,18 @@ li {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 0px;
+    color: #02383B;
 }
 
 body {
-    background: linear-gradient(to left, #85D4FF, #FEED72, #FFFFFF);
+    background: #fff;
     margin-top: 72px;
 }
 
 header {
-
-    background: linear-gradient(to right, #85D4FF, #FFFFFF);
+    background: #85D4FF;
     text-align: center;
     padding: 1rem;
     display: flex;
@@ -32,8 +32,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #85D4FF;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .logo {
@@ -47,25 +46,28 @@ a.logo-link {
   }
 
 .logo img {
-    width: 50px;
+    width: 30px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-h1 {
-    font-size: 25px;
-    color: #02383B;
+#mainTitle {
+    font-size: 23px;
+    font-weight: 1000;
 }
+
 
 .nav ul {
     display: flex;
     list-style: none;
     margin-right: 22px;
+    font-size: 15px;
+    font-weight:bold;
 }
 
 .nav ul li {
     position: relative;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .nav ul li a {
@@ -74,60 +76,61 @@ h1 {
 }
 
 .nav ul li a:hover {
-    background: linear-gradient(to right, #FEED72, #FFFFFF);
+    color: #ffffff;
+
 }
 
 .dropdown li a:hover {
     color: rgb(3, 3, 116);
 }
 
-.dropdown {
-    position: absolute;
-    font-size: 15px;
-    white-space: nowrap;
-    text-align: center;
-    padding-left: 22px;
-    padding-top: 5px;
-    min-width: 100px;
-    left: 50%;
-    transform: translateX(-50%);
+
+.nav ul li {
+    position: relative;
+
 }
 
 .nav ul li:hover .dropdown {
     display: block;
-    background: linear-gradient(to right, #85D4FF, #FFFFFF);
+    position: absolute;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    background: #85D4FF;
+    padding-top: 25px;
 }
 
 .nav ul li:hover .dropdown li {
     display: block;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center; 
 }
 
 .dropdown li {
     display: none;
-    margin: 10px 0;
-}
-
-main {
-    padding: 2rem;
 }
 
 .donation-bar {
-    padding-top: 30px;
+    margin-top: 60px;
     display: flex;
-    background: linear-gradient(to right, #FEED72, #FFFFFF);
-    color: #fff;
-
+    align-items: center; 
 }
 
 .donation-text {
-    padding-top: 12px;
-    padding-left: 20px;
-    flex: 1;
+    font-size: 20px;
     color: #02383B;
+    flex: 1;
+    padding-left: 15px;
 }
 
 .donate-btn {
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
     padding-right: 20px;
 }
 
@@ -142,7 +145,7 @@ main {
     max-width: 100%;
     position: relative;
     margin: auto;
-    padding-bottom: 30px;
+    overflow: hidden; 
 }
 
 .slide {
@@ -151,15 +154,15 @@ main {
 
 .slide img {
     width: 100%;
-    height: auto;
-    aspect-ratio: 3/1;
+    height: 520px;
+    z-index: -1;
+    object-fit: cover;
 }
 
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
 }
-
 @keyframes fade {
     from {
         opacity: 0.4;
@@ -170,41 +173,14 @@ main {
     }
 }
 
-.callToActionImages {
-    background: linear-gradient(to right, #FEED72, #FFFFFF);
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-
-}
-
-.callToAction {
-    display: flex;
-    align-items: center;
-}
-
-.callToAction img {
-    width: 100%;
-    height: 100%;
-}
-
-.callToAction+.callToAction {
-    margin-left: 20px;
-}
-
 .about-section {
-    background: linear-gradient(to right, #85D4FF, #FFFFFF);
     padding: 80px 0;
 }
 
 .about-container {
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .about-container h2 {
@@ -214,15 +190,42 @@ main {
 }
 
 .about-container p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
     color: #02383B;
+}
+
+sup {
+    font-size:  12px;
+    color: #02383B;
+}
+
+.callToActionImages {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.callToAction {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    padding-bottom: 100px;
+}
+
+.callToAction img {
+    height: 370px;
+    width: 100%;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background: linear-gradient(to right, #85D4FF, #FFFFFF);
+    background: #85D4FF;
     color: #02383B;
 }
 
@@ -234,6 +237,7 @@ footer {
 .mobile-icons {
     display: flex;
     align-items: center;
+    justify-items: center;
 }
 
 .navMobile {
@@ -242,18 +246,21 @@ footer {
     left: -300px;
     width: 150px;
     height: 100%;
-    background-color: #fbfbff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #000;
+    background-color: #ffffff;
+    color: #02383B;
     overflow-y: auto;
     padding-top: 10px;
-    transition: left 0.3s ease;
+    transition: left 0.8s ease;
     z-index: 2;
 }
 
-.navMobile a:visited {
-    color: rgb(0, 0, 0);
+.navMobile a {
+    text-decoration: none;
+    color: #02383B; 
+}
 
+.navMobile a:visited {
+    color: #02383B;
 }
 
 .navMobile.visible {
@@ -268,7 +275,8 @@ footer {
 }
 
 .navMobile ul li {
-    padding: 5px 10px;
+    padding-top: 10px;
+    padding-bottom: 3.5px;
     margin: 0;
 }
 
@@ -280,6 +288,10 @@ footer {
 
 .navMobile ul li:hover ul {
     display: block;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid #ccc;
 }
 
 @media (max-width: 768px) {
@@ -298,42 +310,26 @@ footer {
     }
 
     .mobileTopBar {
-        background: linear-gradient(to right, #FEED72, #FFFFFF);
+        background: #ffffff;
         width: 100%;
-        background-color: #252525;
-        color: #000000;
+        color: #02383B;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-between; 
         padding: 10px 20px;
         position: fixed;
-        margin-top: 11px;
         z-index: 2;
     }
-
-
-
-    .mobile-icons {
-        display: flex;
+    
+    .donateBtnMobile img {
+        width: 160px;
+        height: 50px;
+        margin-left: 100px;
     }
 
     .hamburger-icon,
     .phone-icon {
         font-size: 20px;
-        margin-right: 10px;
-    }
-
-    .donate-btn {
-        background-color: #f4f4f4;
-        color: #333;
-        text-decoration: none;
-        border-radius: 5px;
-        padding: 6px 12px;
-        transition: background-color 0.3s ease;
-    }
-
-    .donate-btn:hover {
-        background-color: #333;
-        color: #fff;
+        margin-right: 20px;
     }
 }
