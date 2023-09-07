@@ -32,8 +32,9 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-
 }
+
+
 
 .logo {
     display: flex;
@@ -53,9 +54,12 @@ a.logo-link {
 
 #mainTitle {
     font-size: 23px;
-    font-weight: 1000;
+    font-weight: 300;
 }
 
+#mainTitle strong {
+    font-weight:900;
+}
 
 .nav ul {
     display: flex;
