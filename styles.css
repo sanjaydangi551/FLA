@@ -332,4 +332,27 @@ footer {
         font-size: 20px;
         margin-right: 20px;
     }
+
+    .callToActionImages {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .callToAction {
+        display: flex;
+        align-items: center;
+        height: 0px;
+        padding-bottom: 100px;
+    }
+    
+    .callToAction img {
+        height: 140px;
+        width: 140px;
+    }
+
 }
