@@ -1,3 +1,23 @@
+// program.html
+
+const menuTitles = document.querySelectorAll('.menu-title');
+
+menuTitles.forEach(title => {
+    title.addEventListener('click', () => {
+        const content = title.nextElementSibling;
+
+        // Toggle the content visibility
+        if (content.style.display === 'block') {
+            content.style.display = 'none';
+            title.querySelector('.icon').textContent = '+';
+        } else {
+            content.style.display = 'block';
+            title.querySelector('.icon').textContent = '-';
+        }
+    });
+});
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const hamburgerIcon = document.querySelector(".hamburger-icon");
     const navMobile = document.querySelector(".navMobile");
@@ -42,3 +62,4 @@ function showSlides() {
   
   setTimeout(showSlides, 3500); 
 }
+

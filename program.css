@@ -1,9 +1,15 @@
+main {
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
 .ourProgram-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equally spaced columns */
     gap: 10px; /* Adjust the gap between columns */
     background-color: #f2f2f2; /* Add background color for visualization */
-
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .ourProgram-grid-item {
@@ -22,12 +28,15 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-self: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
 
 }
 
 .secondaryTitle {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -35,9 +44,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns that take up equal space */
     gap: 20px; /* Adjust the gap between items */
-    padding-left: 100px; /* Add padding to the container */
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-left: 400px; /* Add padding to the container */
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #f2f2f2; /* Add background color for visualization */
 }
 
@@ -47,6 +56,71 @@
 
 .laundryExample-grid-item img {
     max-width: 75px;
-    height: 75px;
+    height: 70px;
+    margin-top: -10px;
 
+}
+
+.thirdParagraph {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.menu {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.menu-title {
+    background-color: #f2f2f2;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu-content {
+    padding: 10px;
+    display: none; /* Hidden by default */
+}
+
+/* Style for the toggle icon */
+.icon {
+    float: right;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+@media (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
 }
