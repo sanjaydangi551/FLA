@@ -325,8 +325,8 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 10px 20px;
-        margin-top: -16px;
+        padding: 10px 24px;
+        margin-top: -10px;
         position: fixed;
         z-index: 2;
     }
@@ -371,7 +371,6 @@ footer {
 
     .about-container {
         max-width: 100%;
-
         text-align: left;
     }
 
