@@ -127,14 +127,27 @@ th {
 
 
 @media (max-width: 600px) {
-    /* Hide the image on mobile */
-    .ourProgram-grid-item.image img {
-        display: none;
+    .ourProgram-grid-container {
+      grid-template-columns: 1fr; /* Set it to one column */
     }
+    
+    /* Optional: Adjust other styles for better mobile responsiveness */
+    .ourProgram-grid-item {
+      padding: 20px; /* Adjust padding for spacing around content */
+    }
+  }
 
-    /* Format the text in one column on mobile */
-    .ourProgram-grid-item.text {
-        text-align: left; /* Left-align the text */
-        padding: 0px; /* Adjust padding for spacing */
+  @media (max-width: 600px) {
+    .laundryExample-grid-container {
+      grid-template-columns: 1fr; /* Set it to one column */
+      padding-left: 20px; /* Optional: Adjust padding for better mobile responsiveness */
+      padding-right: 20px; /* Optional: Adjust padding for better mobile responsiveness */
     }
-}
+  }
+
+  @media (max-width: 600px) {
+    .thirdParagraph {
+      padding-left: 20px; /* Optional: Adjust padding for better mobile responsiveness */
+      padding-right: 20px; /* Optional: Adjust padding for better mobile responsiveness */
+    }
+  }
