@@ -302,6 +302,9 @@ footer {
 
 @media (max-width: 768px) {
 
+    #donateButtonDesktop {
+        display: none;
+    }
     
     main {
         padding: 2rem;
