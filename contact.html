@@ -68,6 +68,63 @@
   </div>
 
   <!-- Mobile Nav Bar: includes vertical menu and donate button -->
+  <header>
+    <a href="index.html" class="logo-link">
+      <div class="logo">
+        <img src="/assets/images/logo.png" alt="Logo">
+        <h1 id="mainTitle">FREE LAUNDRY <strong>ACCESS</strong></h1>
+
+      </div>
+    </a>
+    <div>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html#about">ABOUT US</a></li>
+          <li>
+            <a href="program.html">OUR PROGRAM</a>
+            <ul class="dropdown">
+              <li><a href="program.html">HOW IT WORKS</a></li>
+              <li><a href="program.html#eligible">WHO IS ELIGIBLE</a></li>
+              <li><a href="program.html#apply">HOW TO APPLY</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">YOUR HELP</a>
+            <ul class="dropdown">
+              <li><a href="#">DONATION</a></li>
+              <li><a href="#">VOLUNTEER</a></li>
+            </ul>
+          </li>
+          <li><a href="partnership.html">PARTNERSHIP</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="donation-bar">
+    <div class="donation-text">
+      <p>Lend your invaluable support to our cause by making a donation today!</p>
+    </div>
+    <div id="donate-button-container">
+      <div class="donate-btn" id="donate-btn"></div>
+      <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+      <script>
+        PayPal.Donation.Button({
+          env: 'production',
+          hosted_button_id: '24NRC7PDKPWBC',
+          image: {
+            src: 'https://pics.paypal.com/00/s/YmIzYmNhYTktYzYwYi00MjI3LWEyNmUtZjU5NGViMzg0NmZm/file.PNG',
+            alt: 'Donate with PayPal button',
+            title: 'PayPal - The safer, easier way to pay online!',
+          }
+        }).render('#donate-btn');
+      </script>
+    </div>
+    </a>
+  </div>
+
+  <!-- Mobile Nav Bar: includes vertical menu and donate button -->
   <div class="mobileTopBar">
     <div class="mobile-icons">
       <div class="hamburger-icon">&#9776; MENU</div>
@@ -91,7 +148,7 @@
   </div>
   <div class="navMobile">
     <ul>
-      <li><a href="#about">ABOUT US</a></li>
+      <li><a href="index.html#about">ABOUT US</a></li>
       <li class="horizontal-line"></li>
       <li><a href="program.html">OUR PROGRAM</a></li>
       <li><a href="program.html">HOW IT WORKS</a></li>
