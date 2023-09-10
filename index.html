@@ -93,15 +93,15 @@
       <li><a href="#about">ABOUT US</a></li>
       <li class="horizontal-line"></li>
       <li><a href="program.html">OUR PROGRAM</a></li>
-      <li><a href="#">HOW IT WORKS</a></li>
-      <li><a href="#">WHO IS ELIGIBLE</a></li>
-      <li><a href="#">HOW TO APPLY</a></li>
+      <li><a href="program.html">HOW IT WORKS</a></li>
+      <li><a href="program.html#eligible">WHO IS ELIGIBLE</a></li>
+      <li><a href="program.html#apply">HOW TO APPLY</a></li>
       <li class="horizontal-line"></li>
       <li><a href="#">YOUR HELP</a></li>
       <li><a href="#">DONATION</a></li>
       <li><a href="#">VOLUNTEER</a></li>
       <li class="horizontal-line"></li>
-      <li><a href="#">PARTNERSHIP</a></li>
+      <li><a href="partnership.html">PARTNERSHIP</a></li>
       <li class="horizontal-line"></li>
       <li><a href="#">EVENTS</a></li>
       <li class="horizontal-line"></li>
@@ -196,24 +196,21 @@
       </a>
 
       <div class="callToAction">
-        <a href="https://www.paypal.com/donate/?hosted_button_id=24NRC7PDKPWBC" target="_blank">
-          <img id="donateButtonDesktop" src="/assets/images/donate.png" alt="Volunteer">
-        </a>
-
-        <div class="donateButtonDesktop" id="donateButtonDesktop"></div>
-        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-        <script>
-          PayPal.Donation.Button({
-            env: 'production',
-            hosted_button_id: '24NRC7PDKPWBC',
-            image: {
-              src: 'https://pics.paypal.com/00/s/YmIzYmNhYTktYzYwYi00MjI3LWEyNmUtZjU5NGViMzg0NmZm/file.PNG',
-              alt: 'Donate with PayPal button',
-              title: 'PayPal - The safer, easier way to pay online!',
-            }
-          }).render('#donateButtonDesktop');
-        </script>
-      </div>
+        <div id="donate-button-container">
+          <div class="donateButtonDesktop" id="donateButtonDesktop"></div>
+          <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+          <script>
+            PayPal.Donation.Button({
+              env: 'production',
+              hosted_button_id: '24NRC7PDKPWBC',
+              image: {
+                src: 'https://pics.paypal.com/00/s/YmIzYmNhYTktYzYwYi00MjI3LWEyNmUtZjU5NGViMzg0NmZm/file.PNG',
+                alt: 'Donate with PayPal button',
+                title: 'PayPal - The safer, easier way to pay online!',
+              }
+            }).render('#donateButtonDesktop');
+          </script>
+        </div>
       </div>
     </div>
 
