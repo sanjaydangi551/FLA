@@ -47,9 +47,9 @@ a.logo-link {
 }
 
 .logo img {
-    width: 30px;
+    width: 20px;
     height: auto;
-    margin-right: 5px;
+    margin-right: 2px;
 }
 
 #mainTitle {
@@ -302,6 +302,7 @@ footer {
 
 @media (max-width: 768px) {
 
+    
     main {
         padding: 2rem;
         overflow-x: hidden;
@@ -328,6 +329,21 @@ footer {
         margin-top: -16px;
         position: fixed;
         z-index: 2;
+    }
+
+    .logo img {
+        width: 20px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    #mainTitle {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    #mainTitle strong {
+        font-weight: 900;
     }
 
     .donateBtnMobile {
