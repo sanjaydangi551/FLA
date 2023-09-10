@@ -334,11 +334,11 @@ footer {
     .logo img {
         width: 35px;
         height: auto;
-        margin-right: 2px;
+        margin-right: 0px;
     }
 
     #mainTitle {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 500;
     }
     
