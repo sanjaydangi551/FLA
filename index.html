@@ -48,10 +48,22 @@
     <div class="donation-text">
       <p>Lend your invaluable support to our cause by making a donation today!</p>
     </div>
-    <a href="https://www.paypal.com/donate/?hosted_button_id=24NRC7PDKPWBC" class="donate-btn" target="_blank">
-      <img src="/assets/images/donate_btn.png" alt="Donate">
+    <div id="donate-button-container">
+      <div class= "donate-btn" id="donate-btn"></div>
+      <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+      <script>
+        PayPal.Donation.Button({
+          env: 'production',
+          hosted_button_id: '24NRC7PDKPWBC',
+          image: {
+            src: 'https://pics.paypal.com/00/s/YmIzYmNhYTktYzYwYi00MjI3LWEyNmUtZjU5NGViMzg0NmZm/file.PNG',
+            alt: 'Donate with PayPal button',
+            title: 'PayPal - The safer, easier way to pay online!',
+          }
+        }).render('#donate-btn');
+      </script>
+    </div>
     </a>
-
   </div>
 
   <!-- Mobile Nav Bar: includes vertical menu and donate button -->
@@ -59,9 +71,21 @@
     <div class="mobile-icons">
       <div class="hamburger-icon">&#9776; MENU</div>
       <div class="phone-icon">&#9993;</div>
-      <a href="https://www.paypal.com/donate/?hosted_button_id=24NRC7PDKPWBC" class="donateBtnMobile" target="_blank">
-        <img src="/assets/images/donate_btn.png" alt="Donate">
-      </a>
+      <div id="donate-button-container">
+        <div class= "donateBtnMobile" id="donateBtnMobile"></div>
+        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+        <script>
+          PayPal.Donation.Button({
+            env: 'production',
+            hosted_button_id: '24NRC7PDKPWBC',
+            image: {
+              src: 'https://pics.paypal.com/00/s/YmIzYmNhYTktYzYwYi00MjI3LWEyNmUtZjU5NGViMzg0NmZm/file.PNG',
+              alt: 'Donate with PayPal button',
+              title: 'PayPal - The safer, easier way to pay online!',
+            }
+          }).render('#donateBtnMobile');
+        </script>
+      </div>
     </div>
   </div>
   <div class="navMobile">
