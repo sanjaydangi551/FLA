@@ -34,8 +34,6 @@ header {
     z-index: 1000;
 }
 
-
-
 .logo {
     display: flex;
     align-items: center;
@@ -410,7 +408,6 @@ footer {
         height: 180px;
         width: 180px;
     }
-
 
     header {
         background: #85D4FF;
