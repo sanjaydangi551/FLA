@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
 body,
 h1,
@@ -47,18 +47,18 @@ a.logo-link {
 }
 
 .logo img {
-    width: 30px;
+    width: 35px;
     height: auto;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 #mainTitle {
-    font-size: 23px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 #mainTitle strong {
-    font-weight: 900;
+    font-weight: 9000;
 }
 
 .nav ul {
