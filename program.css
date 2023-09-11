@@ -5,7 +5,7 @@ main {
 
 .ourProgram-grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equally spaced columns */
+    grid-template-columns: 1fr 1.5fr; /* Two equally spaced columns */
     gap: 10px; /* Adjust the gap between columns */
     background-color: #f2f2f2; /* Add background color for visualization */
     padding-bottom: 10px;
