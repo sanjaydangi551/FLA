@@ -112,7 +112,21 @@
       
       <div class="donateNow-grid-container">
         <div class="donateNow-grid-item image">
-          <img src="/assets/images/donate_circle.png" alt="washing machines">
+          <div id="donate-button-container">
+            <div class="donateBtn2" id="donateBtn2"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+            <script>
+              PayPal.Donation.Button({
+                env: 'production',
+                hosted_button_id: '24NRC7PDKPWBC',
+                image: {
+                  src: "/assets/images/donate_circle.png",
+                  alt: 'Donate with PayPal button',
+                  title: 'PayPal - The safer, easier way to pay online!',
+                }
+              }).render('#donateBtn2');
+            </script>
+          </div>
         </div>
         <div class="donateNow-grid-item text">  
           <h1 id="donate">DONATION</h1>
