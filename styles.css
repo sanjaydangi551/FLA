@@ -86,7 +86,6 @@ a.logo-link {
   color: rgb(3, 3, 116);
 }
 
-
 .nav ul li {
   position: relative;
 
@@ -124,13 +123,11 @@ a.logo-link {
   left: 0;
   right: 0;
   background-color: white;
-  /* Add a background color if needed */
   z-index: 999;
-  /* Make sure it's above other content */
   display: flex;
   align-items: center;
   height: 77px;
-  /* Set the height to match the original margin-top */
+
 }
 
 #donationBarSpace {
@@ -281,7 +278,6 @@ footer {
 
 .smaller-link {
   font-size: 12px;
-  /* Adjust the font size as needed */
 }
 
 .navMobile a {
@@ -349,6 +345,11 @@ footer {
 
 
 @media (max-width: 768px) {
+
+  #donationBarSpace {
+    visibility: hidden;
+    margin-bottom: 0px;
+  }
 
   .logo img {
     width: 20px;
