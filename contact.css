@@ -1,58 +1,61 @@
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 form label {
-    display: block;
-    margin-top: 10px;
+  display: block;
+  margin-top: 10px;
 }
 
 form input,
 form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
 form button {
-    background-color: #02383B;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    font-size: 18px;
-    cursor: pointer;
+  background-color: #02383B;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 form button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 /* Responsive Styles for Mobile Devices */
 @media screen and (max-width: 600px) {
-    .container {
-        padding-right: 50px; /* Reduce padding for smaller screens */
-    }
+  .container {
+    padding-right: 50px;
+    /* Reduce padding for smaller screens */
+  }
 
-    form input,
-    form textarea {
-        margin-bottom: 10px; /* Reduce margin for smaller screens */
-    }
+  form input,
+  form textarea {
+    margin-bottom: 10px;
+    /* Reduce margin for smaller screens */
+  }
 
-    form button {
-        padding: 8px 16px; /* Adjust button padding for smaller screens */
-    }
+  form button {
+    padding: 8px 16px;
+    /* Adjust button padding for smaller screens */
+  }
 }
