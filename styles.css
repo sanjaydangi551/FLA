@@ -311,6 +311,28 @@ footer {
     border-bottom: 1px solid #ccc;
 }
 
+
+/* title font size change for some screen aspect ratios */
+@media (min-width: 768px) and (max-width: 1134px) {
+    #mainTitle {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    #mainTitle strong {
+        font-weight: 900;
+    }
+    .nav ul {
+        display: flex;
+        list-style: none;
+        margin-right: 5px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+  }
+
+
+
 @media (max-width: 768px) {
 
     .logo img {

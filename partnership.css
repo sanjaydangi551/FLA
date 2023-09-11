@@ -187,11 +187,11 @@ a.logo-link {
     text-align: left;
 }
 
-.partner-container h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #02383B;
-}
+    .partner-container h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #02383B;
+    }
 
     .partner-container p {
         font-size: 18px;
@@ -297,7 +297,7 @@ footer {
 @media (max-width: 768px) {
 
     main {
-        padding: 2rem;
+        padding: 0px;
         overflow-x: hidden;
         padding-top: 4rem;
     }
@@ -350,16 +350,16 @@ footer {
         text-align: left;
     }
 
-    .partner-container h2 {
-        font-size: 32px;
-        color: #02383B;
-    }
+        .partner-container h2 {
+            font-size: 32px;
+            color: #02383B;
+        }
 
-    .partner-container p {
-        font-size: 18px;
-        line-height: 1.6;
-        color: #02383B;
-    }
+        .partner-container p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #02383B;
+        }
 
     .callToActionImages {
         padding: 0px;
