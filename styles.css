@@ -189,8 +189,6 @@ a.logo-link {
     }
 }
 
-
-
 .about-section {
     padding: 80px 0;
 }
@@ -270,6 +268,10 @@ footer {
     padding-top: 10px;
     transition: left 0.8s ease;
     z-index: 2;
+}
+
+.smaller-link {
+    font-size: 12px; /* Adjust the font size as needed */
 }
 
 .navMobile a {

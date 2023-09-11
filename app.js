@@ -86,3 +86,14 @@ function showSlides() {
   setTimeout(showSlides, 3500); 
 }
 
+document.getElementById('how-link').addEventListener('click', function(e) {
+  e.preventDefault();
+  const targetElement = document.querySelector(this.getAttribute('href'));
+  
+  if (targetElement) {
+    window.scrollTo({
+      top: targetElement.offsetTop - 50, // Adjust the value to control how much to scroll up
+      behavior: 'smooth'
+    });
+  }
+});
