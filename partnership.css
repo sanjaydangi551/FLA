@@ -145,14 +145,17 @@ a.logo-link {
 
 .partnership-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  grid-template-columns: 1fr 3fr;
   /* Two equally spaced columns */
   gap: 10px;
   /* Adjust the gap between columns */
   background-color: #f2f2f2;
   /* Add background color for visualization */
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .partnership-grid-item {
@@ -175,6 +178,11 @@ a.logo-link {
   align-self: center;
   letter-spacing: 1px;
   line-height: 1.5;
+}
+
+h2 {
+  color: #02383B;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .callToActionImages {
@@ -366,7 +374,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    max-width: 50%;
     height: 100px;
     margin: 0;
   }

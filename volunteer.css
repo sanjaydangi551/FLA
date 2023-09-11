@@ -32,7 +32,18 @@ main {
     letter-spacing: 1px;
     line-height: 1.5;
   }
-  
+
+  .volunteerLink {
+    height: auto;
+    width: 250px;
+  }
+  .volunteerLinkDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   
   /* Mobile */
   
