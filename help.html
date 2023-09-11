@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="help.css">
-    <title>Free Laundry Access</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="help.css">
+  <title>Free Laundry Access</title>
 </head>
 
 <body>
@@ -108,52 +109,65 @@
     </ul>
   </div>
 
-    <main>
-      
-      <div class="donateNow-grid-container">
-        <div class="donateNow-grid-item image">
-          <div id="donate-button-container">
-            <div class="donateBtn2" id="donateBtn2"></div>
-            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-            <script>
-              PayPal.Donation.Button({
-                env: 'production',
-                hosted_button_id: '24NRC7PDKPWBC',
-                image: {
-                  src: "/assets/images/donate_circle.png",
-                  alt: 'Donate with PayPal button',
-                  title: 'PayPal - The safer, easier way to pay online!',
-                }
-              }).render('#donateBtn2');
-            </script>
-          </div>
+  <main>
+
+    <div class="donateNow-grid-container">
+      <div class="donateNow-grid-item image">
+        <div id="donate-button-container">
+          <div class="donateBtn2" id="donateBtn2"></div>
+          <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+          <script>
+            PayPal.Donation.Button({
+              env: 'production',
+              hosted_button_id: '24NRC7PDKPWBC',
+              image: {
+                src: "/assets/images/donate_circle.png",
+                alt: 'Donate with PayPal button',
+                title: 'PayPal - The safer, easier way to pay online!',
+              }
+            }).render('#donateBtn2');
+          </script>
         </div>
-        <div class="donateNow-grid-item text">  
-          <h1 id="donate">DONATION</h1>
-          <div><br /></div>
-          <p>Free Laundry Access Inc. is committed to providing free access to clean laundry to individuals and
-            families in need across Canada. Your support help to make this possible.
-            Your tax-deductible donation will help Free Laundry Access fulfill its mission of providing free
-            access to clean laundry services to those who are experiencing financial challenges.
-            You can make a positive difference in your community!
+      </div>
+      <div class="donateNow-grid-item text">
+        <h1 id="donate">DONATION</h1>
+        <div><br /></div>
+        <p>
+
+          Give back to your amazing community by volunteering at Free Laundry Access!
+
+          Each Free Laundry Access events requires many hands to make it successful. It involves the contributions of
+          Free Laundry Access Inc., our volunteers, sponsors, partners, and our host laundromats all working together.
+          Volunteering to help others is not only a rewarding experience which words cannot describe but it makes such a
+          tremendous difference in the lives of individuals and families you are helping, as well as making your
+          community a better place to live.
+
+          As a volunteer you not only give your time, effort and talents but also a part of your heart, your generosity,
+          your compassion, and your empathy to those who are less privileged. You are helping so many people in need of
+          this necessary service of gaining access to clean laundry across Canada.
+
+          It is you, the volunteers, who make the world a better place, create a community with warmth and belonging for
+          all, a place to call home. Help Free Laundry Access continue serving the communities across Canada gain access
+          to clean laundry. Come volunteer with us and make a positive difference in your community.
+
         </p>
-        </div>
-  
-      
-      
+      </div>
+
+
+
       <div id="donation" class="dontion-grid-container">
-            <div class="donation-grid-item text">
+        <div class="donation-grid-item text">
 
-                <div><br /></div>
-              
-            </div>
+          <div><br /></div>
 
-    </main>
+        </div>
 
-    <footer>
-        <p>&copy; 2023 Free Laundry Access</p>
-    </footer>
-    <script src="app.js"></script>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Free Laundry Access</p>
+  </footer>
+  <script src="app.js"></script>
 </body>
 
 </html>
