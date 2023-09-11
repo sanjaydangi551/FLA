@@ -197,14 +197,13 @@ h2 {
 
 .callToAction {
   display: flex;
+  justify-content: center;
   align-items: center;
-  height: 150px;
-  padding-bottom: 50px;
 }
 
 .callToAction img {
-  height: 370px;
-  width: 100%;
+  height: auto;
+  width: 250px;
 }
 
 footer {

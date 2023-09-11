@@ -16,14 +16,19 @@ main {
     padding: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
   }
   
   .volunteerNow-grid-item.image img {
-    max-width: 100%;
+    width: 300px;
     height: auto;
+    max-width: 100%; 
   }
   
-  
+
   .volunteerNow-grid-item.text {
     display: flex;
     flex-direction: column;
