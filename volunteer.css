@@ -1,0 +1,52 @@
+main {
+    letter-spacing: 1px;
+    line-height: 1.5;
+  }
+  
+  .volunteerNow-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    background-color: #f2f2f2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  .volunteerNow-grid-item {
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .volunteerNow-grid-item.image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .volunteerNow-grid-item.text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+  }
+  
+  
+  /* Mobile */
+  
+  @media (max-width: 600px) {
+    .volunteerNow-grid-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .volunteerNow-grid-item {
+      padding: 20px;
+    }
+
+    .volunteerNow-grid-item.image img {
+        max-width: 100%;
+        height: auto;
+      }
+  }
