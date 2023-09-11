@@ -467,3 +467,10 @@ footer {
         z-index: 1000;
     }
 }
+
+@media (max-width: 336px) {
+    #mainTitle {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
