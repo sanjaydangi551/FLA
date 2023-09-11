@@ -34,10 +34,6 @@ header {
     z-index: 1000;
 }
 
-ul {
-    list-style-type: square; /* You can use 'circle' or 'square' as well */
-    font-size: 224px; /* Adjust the font size to make the bullet points larger */
-  }
 
 .logo {
     display: flex;
@@ -61,7 +57,7 @@ a.logo-link {
 }
 
 #mainTitle strong {
-    font-weight: 900;
+    font-weight: 9000;
 }
 
 .nav ul {
