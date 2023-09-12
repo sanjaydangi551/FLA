@@ -145,7 +145,7 @@ a.logo-link {
 
 .partnership-grid-container {
   display: grid;
-  width: 90%;
+  width: 100%;
   margin: auto;
   align-items: center;
   grid-template-columns: 1fr 3fr;
