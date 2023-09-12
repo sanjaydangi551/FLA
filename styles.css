@@ -409,7 +409,9 @@ footer {
 
   }
 
-
+  footer {
+    font-size: 12px;
+  }
 
   .donateBtnMobile img {
     padding-bottom: 0px;
@@ -489,4 +491,6 @@ footer {
     font-size: 18px;
     font-weight: 500;
   }
+
+  
 }
