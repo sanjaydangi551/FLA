@@ -27,12 +27,15 @@ main {
 .ourProgram-grid-item.text {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   align-self: center;
   letter-spacing: 1px;
   line-height: 1.5;
 }
 
+.ourProgram-grid-item.text h1 {
+  text-align: center;
+}
 
 .secondaryTitle {
   text-align: center;

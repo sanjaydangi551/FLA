@@ -174,7 +174,7 @@ a.logo-link {
 .partnership-grid-item.text {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   align-self: center;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -406,3 +406,4 @@ footer {
     z-index: 1000;
   }
 }
+

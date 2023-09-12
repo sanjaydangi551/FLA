@@ -1,7 +1,7 @@
 .main {
   letter-spacing: 1px;
   line-height: 1.5;
-  text-align: center; /* Center the text */
+  text-align: center;
 }
 
 .donateNow-grid-container {
@@ -22,27 +22,31 @@
 .donateNow-grid-item.image img {
   max-width: 350px;
   height: auto;
-  margin: 0 auto; /* Center the image horizontally */
+  margin: 0 auto;
 }
 
 .donateNow-grid-item.text {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   align-self: center;
   letter-spacing: 1px;
   line-height: 1.5;
 }
 
+.donateNow-grid-item.text h1 {
+  text-align: center;
+}
+
 .donateNow-grid-item.image {
-  align-self: center; /* Center the content horizontally within this item */
+  align-self: center; 
 }
 
 /* Mobile styles */
 
 @media (max-width: 600px) {
   .donateNow-grid-container {
-    grid-template-columns: 1fr; /* Make it one column in mobile */
+    grid-template-columns: 1fr; 
   }
 
   .donateNow-grid-item {
@@ -61,6 +65,6 @@
   }
 
   .donateNow-grid-item.image img {
-    max-width: 100%; /* Ensure the image doesn't overflow */
+    max-width: 100%; 
   }
 }
